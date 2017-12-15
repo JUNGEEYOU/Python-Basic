@@ -59,6 +59,11 @@ number = 10
 day = 'three'
 d = 'i ate %d apples. so i was sick for %s days.' %(number, day)
 print('d: ', d)
+e = 'i have %s apples' %3  #문자열 %s는 어떤 형태의 값이든 변환하여 넣을 수 있음!
+print('e: ', e)
+f = 'error is %d%% ' %98  # %쓰려면 %%로!!
+print('f: ', f)
+
 
 
 
